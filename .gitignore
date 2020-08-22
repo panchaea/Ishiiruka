@@ -84,3 +84,5 @@ Tools/*.zs-old
 *.AppImage
 *.zsync
 *.zs-old
+*FileListAbsolute.txt
+*recipe
