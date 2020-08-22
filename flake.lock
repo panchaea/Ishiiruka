@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1597943282,
+        "narHash": "sha256-G/VQBlqO7YeFOSvn29RqdvABZxmQBtiRYVA6kjqWZ6o=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c59ea8b8a0e7f927e7291c14ea6cd1bd3a16ff38",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "slippiDesktopApp": "slippiDesktopApp"
+      }
+    },
+    "slippiDesktopApp": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1598086543,
+        "narHash": "sha256-e9AxBT7pDBbJELfpaZIfB/epITFLWYNsmeOdD0H5EDA=",
+        "owner": "project-slippi",
+        "repo": "slippi-desktop-app",
+        "rev": "e41e11a7ee60b6160de8c97c0f0d2ae56ea0eedb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "project-slippi",
+        "repo": "slippi-desktop-app",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
